@@ -23,9 +23,11 @@ You can overwrite settings by putting a variable in your HTML __before__ the par
         'showScreenSize': true
     };
 
-#### Possible config variables:
+#### Config variables
 
-- showScreenSize: add classes for screen size
+Config var     | Description                 | Default value
+-------------- | --------------------------- | --------------
+showScreenSize | add classes for screen size | false
 
 ### Configure Device.js
 
@@ -33,10 +35,10 @@ You can overwrite settings by putting a variable in your HTML __before__ the par
         'showOrientation': true
     };
 
-#### Possible config variables:
+#### Config variables
 
-Config var      | Description                           | Default
---------------- | ------------------------------------- | ---------
+Config var      | Description                           | Default value
+--------------- | ------------------------------------- | --------------
 showOrientation | add classes for portrait or landscape | false
 
 
