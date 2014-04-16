@@ -46,7 +46,7 @@ showOrientation | add classes for portrait or landscape | false
 
 If you want to add this package in a new project you can use the following command to install it:
 
-    bower install https://github.com/sq-template/browser_selector_devicejs.git
+    bower install browser_selector_devicejs=https://github.com/sq-template/browser_selector_devicejs.git
 
 You can also add it as a dependency in the bower.json for the project:
 
