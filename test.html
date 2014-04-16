@@ -23,12 +23,33 @@
 	</head>
 	<body>
 		<h1>Test file</h1>
-		<h3>Classes on HTML element:</h3>
+		<h2>Classes on HTML element:</h2>
 		<div id="classes"></div>
 
-		<h3>User agent and classes:</h3>
+		<h2>User agent and classes:</h2>
 		<script>
 			document.writeln('<p>'+navigator.userAgent+' - '+document.getElementsByTagName('html')[0].className+'</p>');
+		</script>
+
+		<h2>Configs:</h2>
+		<script>
+			document.writeln('<h3>CSS browser selector:</h3>');
+			if(typeof CSS_BROWSER_SELECTOR_CONFIG != 'undefined') {
+				$.each(CSS_BROWSER_SELECTOR_CONFIG, function(key, value) {
+					document.write(key + ': ' + value + '<br />');
+				});
+			} else {
+				document.write('config not set');
+			}
+
+			document.writeln('<h3>Device.js:</h3>');
+			if(typeof DEVICEJS_CONFIG != 'undefined') {
+				$.each(DEVICEJS_CONFIG, function(key, value) {
+					document.write(key + ': ' + value + '<br />');
+				});
+			} else {
+				document.write('config not set');
+			}
 		</script>
 	</body>
 </html>
