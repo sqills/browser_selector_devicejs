@@ -6,11 +6,12 @@ Integrated Device.js and CSS browser selector in a Bower package.
 ## Usage
 
 - Run `bower install` to install the dependencies
-- Add the dependencies to the HEAD of your HTML with the following snippet:
+- Add the dependencies to the HEAD of your HTML with the following snippet
 
-
-    <script src="static/libs/css_browser_selector/css_browser_selector_dev.js"></script>
-    <script src="static/libs/device-js/lib/device.js"></script>
+```
+<script src="static/libs/css_browser_selector/css_browser_selector_dev.js"></script>
+<script src="static/libs/device-js/lib/device.js"></script>
+```
 
 
 ## Configuration
@@ -39,7 +40,7 @@ showScreenSize | add classes for screen size | false
 
 Config var      | Description                           | Default value
 --------------- | ------------------------------------- | --------------
-showOrientation | add classes for portrait or landscape | false
+showOrientation | add classes for portrait or landscape | true
 
 
 ## Usage in new project (with Bower)
