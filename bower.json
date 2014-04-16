@@ -1,0 +1,37 @@
+{
+  "name": "sq-template",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sq-template/css_browser_selector",
+  "authors": [
+    "Jordy Versmissen <jordy.versmissen@sqills.com>",
+    "Kai Diepenmaat <kai.diepenmaat@sqills.com>"
+  ],
+  "description": "Integrated CSS browser selector and device.js in one bower project.",
+  "main": "css_browser_selector_dev.js",
+  "keywords": [
+    "css",
+    "browser",
+    "selector",
+    "devicejs",
+    "detect",
+    "device"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "css_browser_selector": "sq-template/css_browser_selector",
+    "device-js": "sq-template/device.js",
+    "jquery": "1.11.*"
+  },
+  "repository": {
+      "type": "git",
+      "url" : "https://github.com/sq-template/browser_selector_devicejs.git"
+  }
+}

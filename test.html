@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Test</title>
+		<script src="static/libs/jquery/dist/jquery.min.js"></script>
+		<script>
+			// Settings
+			var CSS_BROWSER_SELECTOR_CONFIG = {
+				'showScreenSize': true
+			};
+			var DEVICEJS_CONFIG = {
+				'showOrientation': true
+			};
+
+		</script>
+		<script src="static/libs/css_browser_selector/css_browser_selector_dev.js"></script>
+		<script src="static/libs/device-js/lib/device.js"></script>
+		<script>
+			$(document).ready(function() {
+				var classes = $('html').attr('class');
+				$('#classes').text(classes);
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Test file</h1>
+		<h3>Classes on HTML element:</h3>
+		<div id="classes"></div>
+
+		<h3>User agent and classes:</h3>
+		<script>
+			document.writeln('<p>'+navigator.userAgent+' - '+document.getElementsByTagName('html')[0].className+'</p>');
+		</script>
+	</body>
+</html>
