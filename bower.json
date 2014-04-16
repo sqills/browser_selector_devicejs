@@ -27,7 +27,9 @@
   ],
   "dependencies": {
     "css_browser_selector": "sq-template/css_browser_selector",
-    "device-js": "sq-template/device.js",
+    "device-js": "sq-template/device.js"
+  },
+  "devDependencies": {
     "jquery": "1.11.*"
   },
   "repository": {
