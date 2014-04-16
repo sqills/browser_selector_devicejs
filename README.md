@@ -35,7 +35,9 @@ You can overwrite settings by putting a variable in your HTML __before__ the par
 
 #### Possible config variables:
 
-- showOrientation: add classes for portrait or landscape
+Config var      | Description                           | Default
+--------------- | ------------------------------------- | ---------
+showOrientation | add classes for portrait or landscape | false
 
 
 ## Usage in new project (with Bower)
