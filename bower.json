@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://github.com/sq-template/css_browser_selector",
   "authors": [
-    "Jordy Versmissen <jordy.versmissen@sqills.com>",
-    "Kai Diepenmaat <kai.diepenmaat@sqills.com>"
+    "Jordy Versmissen <jordy.versmissen@sqills.com>"
   ],
   "description": "Integrated CSS browser selector and device.js in one bower project.",
   "main": "css_browser_selector_dev.js",
